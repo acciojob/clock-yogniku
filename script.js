@@ -14,7 +14,7 @@ function currentTime(){
             arrTimer[i] = addZero(arrTimer[i])
         }
         let time = ` ${arrTimer[0]} : ${arrTimer[1]} : ${arrTimer[2]} : ${arrTimer[3]}`
-        para.innerHTML = ${month+1}/${day}/${year},${time}
+        para.innerHTML = `${month+1}/${day}/${year},${time}`
 }
        setInterval(currentTime,1000)
 
